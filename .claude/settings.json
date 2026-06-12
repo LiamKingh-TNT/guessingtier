@@ -1,4 +1,11 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(grep -aoE '\"logs\":\\\\[.{0,80}' /tmp/page2.html)",
+      "WebFetch(domain:docs.expo.dev)"
+    ]
+  },
   "enabledPlugins": {
     "expo@claude-plugins-official": true
   }

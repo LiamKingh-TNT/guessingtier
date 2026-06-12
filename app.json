@@ -34,6 +34,12 @@
             "imageWidth": 76
           }
         }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "允許 $(PRODUCT_NAME) 存取您的照片，以便為題目上傳圖片。"
+        }
       ]
     ],
     "experiments": {
